@@ -1,0 +1,75 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool
+*.cover
+
+# Configuration file for eclipse ide
+.project
+# Configuration file for eclipse ide
+.cproject
+# Configuration file for eclipse ide
+.settings/
+
+# IDE directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# Editor and IDE specific files
+.vscode/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Built binary directories
+bin/
+obj/
+
+# Local Go module cache
+go.sum
+
+# Go test cache
+/testdata/
+*.test
+
+# Miscellaneous
+.DS_Store
+
+# GoLand project files
+*.iml
+.idea/
+
+# Coverage data
+coverage.out
+
+# Module and dependency files
+.gomodcache/
+.gopath/
+
+# Linter result files
+lintresult.xml
+
+# Debugging files
+.debug/
